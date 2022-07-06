@@ -1,4 +1,18 @@
-.mycard {
+.nb-card {
     display:inline-block;
     margin: 1rem;
+}
+
+/* [class*="col"] {
+    padding: 1rem;
+    background-color: cyan;
+    border-radius: 8px;
+}  */
+
+
+.nb-col {
+    padding: 1rem;
+    background-color: cyan;
+    /*border: 4px solid #000;*/
+    border-radius: 8px;
 }
