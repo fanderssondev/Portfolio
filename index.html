@@ -15,7 +15,9 @@
 <body>
     <div class="container">
         <header>
-            <nav class="navbar navbar-expand-md">
+            <div class="header-menu-padding"></div>
+
+            <nav>
                 <ul class="nav nav-tabs fixed-top header-menu justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
@@ -48,24 +50,19 @@
         </header>
 
         <main>
-            <br>
-            <br>
-            <br>
             <div class="row text-center">
-                <a id="home"></a>
+                <a id="home" class="anchor-link"></a>
                 <div class="col-md-6 nb-col"><img src="pics/developer-avatar.webp" alt="Developer developer-avatar"
-                        width="400" height="400"></div>
+                    width="400" height="400"></div>
                 <div class="col-md-6 nb-col my-auto"
                     style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
                     <h1>Fredrik Andersson</h1>
                     <p>Full stack developer</p>
                 </div>
-            </div><br>
+            </div>
 
-
-
-            <a id="technologies"></a>
             <div class="col nb-col">
+                <a id="technologies" class="anchor-link"></a>
                 <div class="container">
                     <h2>Technologies</h2>
                     <div class="nb-icons-size">
@@ -78,10 +75,10 @@
                         <i class="fa-brands fa-github"></i>
                     </div>
                 </div>
-            </div><br>
+            </div>
 
-            <a id="projects"></a>
             <div class="col nb-col">
+                <a id="projects" class="anchor-link"></a>
                 <div class="container">
                     <h2>Projects</h2>
                     <div class="container my-4">
@@ -149,7 +146,6 @@
                 </div>
             </div>
         </main>
-        <br>
         <!--Links to external media. Should be in a footer-->
         <footer>
             <a id="media"></a>
@@ -161,6 +157,19 @@
         </footer>
     </div><br>
     <script src="js/bootstrap.bundle.js"></script>
+
+
+
+    <div class="fredrik">
+        <img src="./pics/placeholder.jpg" alt="bild på fredrik">
+        <div>
+            <h5>Project 1</h5>
+            <p>Some quick example text to build on the card title and make up the
+                bulk
+                of the card's content.</p>
+            <a href="#">Go somewhere</a>
+        </div>
+    </div>
 </body>
 
 </html>

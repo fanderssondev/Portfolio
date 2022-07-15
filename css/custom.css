@@ -1,3 +1,28 @@
+* {
+    box-sizing: border-box;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+main {
+    margin-top: 20px;
+}
+
+main > div {
+    margin: 20px 0;
+    position: relative;
+}
+
+.anchor-link {
+    position: absolute;
+    top: -50px;
+}
+
 .nb-card {
     display:inline-block;
     margin: 1rem;
@@ -11,10 +36,17 @@
 
 .header-menu {
     height: 50px;
-    padding-top: 10px;
-    padding-bottom: 20px;
     margin-bottom: 20px;
     background-color: white;
+}
+
+.header-menu-padding {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.nav-link {
+    padding: 12px 15px;
 }
 
 .logo {
@@ -22,6 +54,27 @@
     width: 50px;
 }
 
-* {
-    box-sizing: border-box;
-    }
+.fredrik {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.fredrik div {
+    padding: 20px;
+}
+
+.fredrik a {
+    background-color: #0d6efd;
+    color: white;
+    padding: 7.5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+
