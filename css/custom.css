@@ -1,19 +1,26 @@
 * {
     box-sizing: border-box;
-    }
+}
+
+body {
+    background-color: #e0ffff;
+}
 
 img {
     max-width: 100%;
     height: auto;
 }
 
-
+.picture {
+    height: 300px;
+    border-radius: 8px;
+}
 
 main {
     margin-top: 20px;
 }
 
-main > div {
+main>div {
     margin: 20px 0;
     position: relative;
 }
@@ -24,7 +31,7 @@ main > div {
 }
 
 .nb-card {
-    display:inline-block;
+    display: inline-block;
     margin: 1rem;
 }
 
@@ -51,7 +58,8 @@ main > div {
 
 .logo {
     height: 50px;
-    width: 50px;
+    margin: 10px;
+
 }
 
 .fredrik {
@@ -74,7 +82,4 @@ main > div {
     border-radius: 5px;
 }
 
-@media screen and (min-width: 480px) {
-}
-
-
+@media screen and (min-width: 480px) {}
