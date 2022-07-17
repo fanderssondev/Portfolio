@@ -1,93 +1,108 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .bg-color {
-    background-image: url('/pics/430918.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("/pics/430918.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .picture {
-    height: 235px;
-    border-radius: 8px;
+  height: 235px;
+  border-radius: 8px;
 }
 
 main {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-main>div {
-    margin: 20px 0;
-    position: relative;
+main > div {
+  margin: 20px 0;
+  position: relative;
 }
 
 .anchor-link {
-    position: absolute;
-    top: -68px;
+  position: absolute;
+  top: -68px;
 }
 
 .home {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .name-header {
-    color: white;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: bold;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
 }
 
 .nb-card {
-    display: inline-block;
-    margin: 1rem;
+  display: inline-block;
+  margin: 1rem;
 }
 
 .nb-col {
-    padding: 1rem;
-    background-color: #5094c6;
-    border-radius: 8px;
+  padding: 1rem;
+  background-color: #5094c6;
+  border-radius: 8px;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: white;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
 }
 
 .header-menu {
-    height: 50px;
-    margin-bottom: 20px;
-    background-color: #5094c6;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #5094c6;
 }
 
 .header-menu-padding {
-    padding-bottom: 50px;
-    width: 100%;
+  padding-bottom: 50px;
+  width: 100%;
 }
 
 .nav-link {
-    padding: 12px 15px;
+  padding: 12px 15px;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
+  height: 50px;
+  width: 50px;
+  
+  /*
+  data-bs-toggle="tooltip"; 
+  data-bs-placement="bottom"; 
+  title="Tooltip on bottom";
+  */
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #20609f !important;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #20609f !important;
 }
 
-/* Not working atm
-
-.card-container {
-    justify-content: center;
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-*/
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
 /*
 .fredrik {
