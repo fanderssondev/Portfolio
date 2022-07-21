@@ -18,39 +18,21 @@ img {
   border-radius: 8px;
 }
 
-main {
-  margin-top: 20px;
+/* Header section */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-main > div {
-  margin: 20px 0;
-  position: relative;
+.nav-link {
+  padding: 12px 15px;
 }
 
 .anchor-link {
   position: absolute;
   top: -68px;
-}
-
-.home {
-  margin-bottom: 60px;
-}
-
-.name-header {
-  color: white;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-}
-
-.nb-card {
-  display: inline-block;
-  margin: 1rem;
-}
-
-.nb-col {
-  padding: 1rem;
-  background-color: #5094c6;
-  border-radius: 8px;
 }
 
 a:link,
@@ -71,26 +53,25 @@ a:active {
   width: 100%;
 }
 
-.nav-link {
-  padding: 12px 15px;
+
+/* Main body */
+.name-hero {
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
 }
 
-.logo {
-  height: 50px;
-  width: 50px;
-  
-  /*
-  data-bs-toggle="tooltip"; 
-  data-bs-placement="bottom"; 
-  title="Tooltip on bottom";
-  */
+.home {
+  margin-bottom: 60px;
 }
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited {
-  background-color: #20609f !important;
+main {
+  margin-top: 20px;
+}
+
+main > div {
+  margin: 20px 0;
+  position: relative;
 }
 
 .flex-container {
@@ -102,19 +83,39 @@ a:active {
 
 h2 {
   text-align: center;
-  
 }
 
+.logo {
+  height: 50px;
+  width: 50px;
+}
 
-.fredrik {
+/* Cards */
+.nb-card {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.nb-col {
+  padding: 1rem;
+  background-color: #5094c6;
+  border-radius: 8px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #20609f !important;
+}
+
+/* .fredrik {
     background-color: white;
     border-radius: 10px;
     margin: auto;
     overflow: auto;
     border: 1px solid black;
 }
-
-
 
 .fredrik div {
     padding: 20px;
@@ -128,5 +129,4 @@ h2 {
     border-radius: 5px;
 }
 
-@media screen and (min-width: 480px) {}
-
+@media screen and (min-width: 480px) {} */
