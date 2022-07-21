@@ -18,11 +18,20 @@ img {
   border-radius: 8px;
 }
 
+.anchor-link {
+  position: absolute;
+  top: -68px;
+}
+
 /* Header section */
 header {
   padding: 0;
   margin: 0;
   background-color: #5094c6;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 li {
@@ -35,6 +44,7 @@ a {
 }
 
 .navbar {
+  
   min-height: 70;
   display: flex;
   justify-content: space-between;
@@ -104,6 +114,7 @@ a {
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    z-index: 10;
   }
 
   .nav-item {
@@ -115,29 +126,6 @@ a {
   }
 }
 
-/* #################################################### */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.anchor-link {
-  position: absolute;
-  top: -68px;
-}
-
-/* a:link,
-a:visited,
-a:hover,
-a:active {
-  color: white;
-} */
-
-/* .header-menu-padding {
-  padding-bottom: 50px;
-  width: 100%;
-} */
 
 /* Main body */
 
