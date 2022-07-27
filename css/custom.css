@@ -44,7 +44,7 @@ a {
 }
 
 .navbar {
-  min-height: 70;
+  min-height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ a {
 
 .nav-branding {
   position: absolute;
-  left: 60px;
+  left: 5%;
   height: 50px;
   width: 50px;
 }
@@ -70,11 +70,14 @@ a {
   color: white;
   transition: 0.7s ease;
 }
+
 .nav-link:hover {
   color: #05080c;
 }
 
 .hamburger {
+  position: absolute;
+  right: 30px;
   display: none;
   cursor: pointer;
 }
@@ -149,7 +152,7 @@ main {
   margin-top: 20px;
 }
 
-main > div {
+main>div {
   margin: 20px 0;
   position: relative;
 }
@@ -176,7 +179,7 @@ h3 {
   margin: 30px;
 }
 
-.logo-section{
+.logo-section {
   display: flex;
   gap: 15px;
   justify-content: center;
@@ -201,7 +204,7 @@ h3 {
   height: 245px;
 }
 
-.card-bottom-section > .logo {
+.card-bottom-section>.logo {
   height: 35px;
   width: 35px;
   justify-content: right;
