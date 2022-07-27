@@ -44,10 +44,9 @@ a {
 }
 
 .navbar {
-  
   min-height: 70;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 24px;
 }
@@ -60,6 +59,8 @@ a {
 }
 
 .nav-branding {
+  position: absolute;
+  left: 60px;
   height: 50px;
   width: 50px;
 }
@@ -181,7 +182,18 @@ h3 {
   width: 50px;
 }
 
-/* Cards */
+/* Card */
+
+.card-img-top {
+  height: 245px;
+}
+
+.card-bottom-section > .logo {
+  height: 35px;
+  width: 35px;
+  justify-content: right;
+}
+
 .nb-card {
   display: inline-block;
   margin: 1rem;
