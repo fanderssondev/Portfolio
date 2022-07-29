@@ -43,11 +43,15 @@ li {
   list-style: none;
 }
 
-/* For active button */
-li.active {
+/* For selected button */
+li.selected {
   background-color: black;
   transition: 0.3 ease background-color;
 }
+
+/* li.selected a {
+  color: red;
+} */
 
 a {
   color: white;

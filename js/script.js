@@ -14,7 +14,26 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', 
 
 
 // Active menu buttons
-// const buttons = document.querySelectorAll('')
-// Video 11.24
+const sections = document.querySelectorAll('section');
+const navList = document.querySelectorAll('nav .navbar ul li');
+
+window.addEventListener('scroll', () => {
+    let current = '';
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (scrollY >= sectionTop) {
+            current = section.getAttribute('id');
+            console.log(current);
+        }
+    })
+})
 
 
+
+
+
+/////////////////////////////////////////
+//Scroll
