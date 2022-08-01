@@ -232,6 +232,41 @@ h5 {
   background-color: #20609f !important;
 }
 
+/* Contact form */
+.contact-sections {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+}
+
+.form-block {
+  width: 400px;
+  margin: 5px;
+  background-color: white;
+}
+
+.form button {
+  width: 200px;
+  color:white;
+  background-color: #20609f;
+}
+
+.contact-icons {
+  position: absolute;
+  right: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+.contact-icons a {
+  margin: 30px;
+}
+
 /* Footer */
 
 footer {
