@@ -234,9 +234,9 @@ h5 {
 
 /* Contact form */
 .contact-sections {
-  position: relative;
   display: flex;
   justify-content: center;
+  margin: 20px;
 }
 
 .form {
@@ -257,11 +257,11 @@ h5 {
 }
 
 .contact-icons {
-  position: absolute;
-  right: 50px;
+  /* position: relative; */
   display: grid;
-  justify-content: center;
+  justify-content: right;
 }
+
 
 .contact-icons a {
   margin: 30px;
